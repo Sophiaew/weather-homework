@@ -1,0 +1,137 @@
+/*all*/
+.container {
+  font-family: "Space Mono", monospace;
+  background-color: #fefbf3;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 2em auto;
+}
+
+.row {
+  padding: 5px;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+h1,
+h3 {
+  color: #79b4b7;
+  font-family: "Fredericka the Great", cursive;
+}
+
+/*top*/
+
+.cities {
+  text-align: center;
+  padding: 10 10px;
+  margin-top: 20px;
+}
+
+.cities:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+/*search*/
+#search-box {
+  width: 100%;
+  background-color: #fefbf3;
+  border: #79b4b7, solid, 1px;
+}
+.search-button {
+  background-color: #79b4b7;
+  color: #fefbf3;
+  border-radius: 5px;
+  border: 1px solid #79b4b7;
+  transition: ease-in-out;
+  transition-duration: 7ms;
+}
+.search-button:hover {
+  opacity: 0.8;
+}
+
+/*weather*/
+
+.location-button {
+  background-color: #79b4b7;
+  color: #fefbf3;
+  border-radius: 5px;
+  border: 1px solid #79b4b7;
+  transition: ease-in-out;
+  transition-duration: 7ms;
+}
+.location-button:hover {
+  opacity: 0.8;
+}
+
+#temp {
+  font-size: 50px;
+  padding-top: 20px;
+  display: inline;
+}
+.units {
+  font-size: 15px;
+  display: inline;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.left-weather {
+  text-align: center;
+}
+.current-city {
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+
+#weather-description {
+  text-transform: capitalize;
+}
+
+.bottom-border {
+  border: 1px solid #fefbf3;
+  background-color: #79b4b7;
+  color: #fefbf3;
+  color: #fefbf3;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  margin-bottom: 4px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.right-weather .active {
+  color: gray;
+  cursor: default;
+}
+
+.right-weather .active .hover {
+  text-decoration: none;
+}
+
+.weather-forecast-temperature-min {
+  color: lightgray;
+}
+
+.weather-forecast {
+  text-align: center;
+}
